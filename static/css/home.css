@@ -1,0 +1,48 @@
+.header_bg .navbar .navbar-nav .menu-item a{color:#ffffff;}.header_bg .navbar .navbar-nav .menu-item a:hover, .header_bg .menu > .nav-item.active .nav-link, 
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link,
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link span.arrow_carrot-right,
+   .menu_six .menu > .nav-item:hover .nav-link, .menu_six .menu > .nav-item.active .nav-link{color:#ffffff;}.header_bg{background:transparent;}header_bg .navbar .navbar-nav .menu-item{margin-top:0;margin-right:40px;margin-bottom:0;margin-left:0;}.header_bg header.navbar_fixed .menu > .nav-item > .nav-link, header.header_bg.navbar_fixed .navbar .navbar-nav .menu-item a{color:#051441;}
+   .header_bg .navbar_fixed .navbar .navbar-nav .menu-item a:hover, 
+   .header_bg .navbar_fixed .menu > .nav-item.active .nav-link,
+   .header_bg.navbar_fixed .menu_six .menu > .nav-item:hover > .nav-link,
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link span.arrow_carrot-right,
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link, 
+   .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+   .header_bg.navbar_fixed .menu_six .menu > .nav-item.active > .nav-link
+                {color:#5e2ced;}.header_bg .navbar .btn_get{color:#5e2ced;}.header_bg .navbar .btn_get{border-color:#ffffff;}.header_bg .navbar .btn_get{background:#ffffff;}.header_bg .navbar .btn_get:hover{color:#ffffff;}.header_bg .navbar .btn_get:hover{border-color:#5e2ced;}.header_bg .navbar .btn_get:hover{background:#5e2ced;}.navbar_fixed .header_bg .navbar .btn_get:hover{border-color:#5e2ced;}.navbar_fixed.header_bg .navbar .btn_get{border-color:#5e2ced;}.navbar_fixed.header_bg .navbar .btn_get{color:#5e2ced;}.navbar_fixed .header_bg .navbar .btn_get:hover{color:#ffffff;}.breadcrumb_area, .breadcrumb_area_two{padding-right:0;padding-left:0;}.blog .header_bg .navbar .navbar-nav .menu-item a{color:#051441;}
+				.tab-pane ul li{list-style-type: none;font-family: 'Poppins', sans-serif;line-height: 36px;}
+
+/*滚动条的宽度*/
+
+    ::-webkit-scrollbar {
+        width:3px;
+        height:9px;
+    }
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+
+    ::-webkit-scrollbar-track {
+        width: 6px;
+        background-color:#10afed;
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        border-radius:2em;
+    }
+
+/*滚动条的设置*/
+
+    ::-webkit-scrollbar-thumb {
+        background-color:#ffffff;
+        background-clip:padding-box;
+        min-height:28px;
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        border-radius:2em;
+    }
+/*滚动条移上去的背景*/
+
+    ::-webkit-scrollbar-thumb:hover {
+         background-color:#fff;
+    }
+
